@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: azure;
+}
+header{
+    background-image: url(../multimedia/imagenes/DISEÑO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: beige;
+}

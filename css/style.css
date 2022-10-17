@@ -23,10 +23,17 @@ nav{
 #div2_footer{
     background-color: #ff8000;
     display: block;
+
     
 }
 .icon{
     padding: 0.5%;
     display: inline-block;
     margin-left: 23%;
+}
+#logo{
+    display: block;
+    align-content: center;
+    margin-left: 49%;
+    margin-bottom: 2%;
 }

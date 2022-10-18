@@ -12,16 +12,41 @@ header{
 h1,h3{
     text-align: center;
 }
-
-a{
-    color: beige;
+h1{
+    color: greenyellow;
+    margin-top: 15%;
+    text-shadow: 3px 3px 4px black;
+}
+.navA{
+    padding: 1%;
+    margin: 2%;
+}
+.navA:link{
+    color: black;
+    text-decoration: dotted;
+}
+.navA:visited{
+    color:beige;
+    text-decoration:solid;
+}
+.navA:active{
+    color: black;
+    text-decoration: dotted;
+}
+.navA:hover{
+    color: black;
+    background-color: greenyellow;
+    text-decoration:underline;
 }
 nav{
-    border: 1px solid white;
+    border: 3px solid greenyellow;
+    padding: 1.5%;
+    width:auto;
     display: block;
+    background-color: #ff914d;
 }
 #div2_footer{
-    background-color: #ff8000;
+    background-color: #ff914d;
     display: block;
 
     

@@ -62,3 +62,8 @@ nav{
     margin-left: 49%;
     margin-bottom: 2%;
 }
+#art_information{
+    margin-top: 2%;
+    display: block;
+    border: 3px solid greenyellow;
+}

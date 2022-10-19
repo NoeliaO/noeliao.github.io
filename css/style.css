@@ -16,6 +16,7 @@ h1{
     color: greenyellow;
     margin-top: 15%;
     text-shadow: 3px 3px 4px black;
+
 }
 .navA{
     padding: 1%;
@@ -66,4 +67,8 @@ nav{
     margin-top: 2%;
     display: block;
     border: 3px solid greenyellow;
+}
+h2,p{
+    padding: 1%;
+
 }

@@ -6,8 +6,6 @@ header{
     background-image: url(../multimedia/imagenes/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: auto;
-    height: 600px;
 }
 h1,h3{
     text-align: center;

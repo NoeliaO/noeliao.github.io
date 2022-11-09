@@ -1,6 +1,6 @@
 body{
-    background-color: black;
-    color: azure;
+    background-color: #000000;
+    color: #f0ffff;
 }
 header{
     background-image: url(../multimedia/imagenes/Banner.png);
@@ -11,9 +11,9 @@ h1,h3{
     text-align: center;
 }
 h1{
-    color: greenyellow;
+    color: #adff2f;
     margin-top: 15%;
-    text-shadow: 3px 3px 4px black;
+    text-shadow: 3px 3px 4px #000000;
 
 }
 .navA{
@@ -34,11 +34,11 @@ h1{
 }
 .navA:hover{
     color: black;
-    background-color: greenyellow;
+    background-color: #adff2f;
     text-decoration:underline;
 }
 nav{
-    border: 3px solid greenyellow;
+    border: 3px solid #adff2f;
     padding: 1.5%;
     width:auto;
     display: block;
@@ -64,9 +64,18 @@ nav{
 #art_information{
     margin-top: 2%;
     display: block;
-    border: 3px solid greenyellow;
+    border: 3px solid #adff2f;
 }
 h2,p{
     padding: 1%;
 
+}
+#divSGInfo{
+    background-color: #adff2f;
+    border-radius: 1% solid #ff914d;
+
+}
+#tColor{
+    background-color: #f0ffff;
+    border: 1px solid #ff914d;
 }

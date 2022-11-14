@@ -70,12 +70,16 @@ h2,p{
     padding: 1%;
 
 }
-#divSGInfo{
+.infoArticle{
     background-color: #adff2f;
     border-radius: 1% solid #ff914d;
+    color: #000000;
 
 }
 #tColor{
     background-color: #f0ffff;
     border: 1px solid #ff914d;
+}
+th{
+    color:#000000
 }

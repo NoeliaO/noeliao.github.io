@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="Noelia Otazo Rojo">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!--Header-->
+    <header style="background-color: #FFFFFF;">
+        <div style=" margin-right: 1%;">
+            <h1>Task 3 Materialize</h1>
+            <p>Create a table with the price of the following cell phones in El corte inglés, Mediamarkt, Amazon and The
+                phone house:<br>
+                Iphone 14, Oppo find x5 pro, Realme gt2, Poco F3, Xiaomi 12 pro, Google pixel 6, Realme gt masters
+                edition
+                <br>The table header must be bold and the table must be resoponsive and highlighted.
+                Add the cell image to the table for a better comprehension
+            </p>
+        </div>
+        <hr color="#FFFFFF">
+    </header>
+    <table class="responsive-table highlight" style="margin: 1%;">
+        <thead>
+            <tr>
+                <th>PHONE</th>
+                <th>EL CORTE INGLES</th>
+                <th>MEDIAMARKT</th>
+                <th>AMAZON</th>
+                <th>THE PHONE HOUSE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="1">
+                    IPhone 14<br>
+                    <img class="responsive-img"
+                        src="data:image/jpeg;base64,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" style="width: 10%;">
+
+                </td>
+                <td>1469,00€</td>
+                <td>1130,00€</td>
+                <td>1319,00€</td>
+                <td>929,00€</td>
+            </tr>
+            <tr>
+                <td>Oppo find x5 pro<br>
+                    <img class="responsive-img" src="https://ae01.alicdn.com/kf/S26272fa397334f6ea0969ff9e9a52bb8Q/OPPO-smartphone-Find-X5-Pro-Snapdragon-8-Gen-1-Pantalla-AMOLED-de-6-7-pulgadas-120Hz.png_640x640.png" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+            <tr>
+                <td>Realme gt2<br>
+                    <img class="responsive-img" src="https://fdn.gsmarena.com/imgroot/news/22/02/realme-gt2-pro-official/-1200/gsmarena_013.jpg" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+            <tr>
+                <td>Poco F3<br>
+                    <img class="responsive-img" src="https://ws.izenecdn.com/shopnc/goods/37/37_06741472913447082.jpg" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+            <tr>
+                <td>Xiaomi 12 pro<br>
+                    <img class="responsive-img" src="https://d2j6dbq0eux0bg.cloudfront.net/images/48118086/2944694694.jpg" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+            <tr>
+                <td>Google pixel 6<br>
+                    <img class="responsive-img" src="https://m.media-amazon.com/images/I/71ee+5V4ZRL._AC_SL1500_.jpg" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+            <tr>
+                <td>Realme gt masters edition<br>
+                    <img class="responsive-img" src="https://image05.realme.net/general/20210831/1630392940479.png.webp" style="width: 10%;">
+                </td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+                <td>800€</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

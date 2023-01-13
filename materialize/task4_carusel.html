@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="../../banco/multimedia/banner/DARK SIDE.png" width="200%"></a>
+        <a class="carousel-item" href="#two!"><img src="../../banco/multimedia/banner/DARK SIDE2.png" width="200%"></a>
+        <a class="carousel-item" href="#three!"><img src="../../banco/multimedia/banner/DARK SIDE3.png"
+                width="200%"></a>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems);
+        });
+
+    </script>
+
+
+
+
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+            <h2>First Panel</h2>
+            <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!" style="background-image: url(../../banco/multimedia/banner/DARK\ SIDE.png); background-repeat: no-repeat; background-size: cover;">
+            <h2>Fourth Panel</h2>
+            <p class="white-text">This is your fourth panel</p>
+        </div>
+    </div>
+    <script>
+        var instance = M.Carousel.init({
+            fullWidth: true,
+            indicators: true
+        });
+    </script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

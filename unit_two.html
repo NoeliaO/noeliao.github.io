@@ -42,6 +42,10 @@
             font-family: 'Fredericka the Great', cursive;
         }
 
+        .justify {
+            text-align: justify;
+        }
+
         p {
             font-family: 'Quicksand', sans-serif;
             text-align: justify;
@@ -95,10 +99,12 @@
                                 <li><a class="dropdown-item text-dark" href="./unit_one.html">Unit 1</a></li>
                                 <li><a class="dropdown-item text-dark" href="./unit_two.html">Unit 2</a></li>
                                 <li><a class="dropdown-item text-dark" href="./unit_three.html">Unit 3</a></li>
+                                <li><a class="dropdown-item text-dark" href="./unit_four.html">Unit 4</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item text-dark"
+                                        href="https://rubengda.github.io/EquipoRojo/">#TeamSanta</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -137,8 +143,8 @@
             <div class="card lmb-12 bg-secondary">
                 <div class="row s-12">
                     <div class="col-md-4">
-                        <img src="./multimedia/designUnit1-removebg-preview.png" class="img-fluid rounded-start"
-                            alt="...">
+                        <img src="./multimedia/imagenes/designUnit1-removebg-preview.png"
+                            class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8 bg-dark text-light">
                         <div class="card-body">
@@ -151,6 +157,12 @@
                                 <li class="list-group-item bg-secondary"><a href="#materialize"
                                         class="text-warning">Materialize</a></li>
                                 <li class="list-group-item bg-secondary"><a href="#sass" class="text-warning">SASS</a>
+                                </li>
+                                <li class="list-group-item bg-secondary"><a href="#angular"
+                                        class="text-warning">Angular</a>
+                                </li>
+                                <li class="list-group-item bg-secondary"><a href="#matangular"
+                                        class="text-warning">Material for Angular</a>
                                 </li>
                             </ul>
                         </div>
@@ -213,12 +225,24 @@
     </section>
 
     <!--Materialize-->
-    <article class="container text-bg-dark rounded" id="bootstrap">
+    <article class="container text-bg-dark rounded" id="materialize">
         <h2 class="text-warning">Materialize</h2>
         <p class="">
-            <a href="https://materializecss.com" class="text-warning">Link to Materialize main page.</a>
+            It is a responsive, robust and adaptable CSS framework; whose design bases are inherited from Google and its
+            Material Design development standard, which is the visual language that concentrates the classic principles
+            of good design with the innovation of "modern technology and science" for mobile environments (Android, iOS
+            and Flutter) and for the Internet.
+            <br>
+            Materialize allows default styles that speed up development times through the addition of custom components.
+            Along with Google's own stylized animations and transitions, they provide a smoother experience in the
+            development process for designers and their implementation in their projects. On the other hand, the UX
+            (User Experience) benefits, since a referential framework is created, which incorporates components and
+            animations that provide more intuitive environments as well as underlying or hidden receptive systems on all
+            platforms, creating a GUI (Graphic Interface). of the User) more homogeneous on the web.
+
         </p>
-        <br>
+        <a href="https://materializecss.com" class="text-warning">Link to Materialize main page.</a>
+        <br> <br>
         <!--ACORDION-->
         <div class="accordion accordion-flush rounded" id="accordionFlushExample">
             <div class="accordion-item bg-secondary">
@@ -232,29 +256,130 @@
                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <ul>
+                            <li><a href="./task/materialize/task1_cglobals.html" target="_blank"
+                                    class="text-warning">Common
+                                    Globals</a></li>
+                            <li><a href="./task/materialize/task3_table.html" target="_blank"
+                                    class="text-warning">Table</a>
+                            </li>
+                            <li><a href="./task/materialize/task5_login.html" target="_blank"
+                                    class="text-warning">LogIn</a>
+                            </li>
+                            <li><a href="./task/materialize/task6_cinema.html" target="_blank"
+                                    class="text-warning">Cinema</a></li>
                             <li><a href="https://noeliao.github.io/curriculum" target="_blank"
-                                    class="text-warning">Valladolid</a></li>
+                                    class="text-warning">Curriculum</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
         <div class="align-center">
-            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/">
+            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/imagenes/materialize.jpg">
         </div>
         <br>
     </article>
     <br>
 
     <!--SASS-->
-    <article class="container text-bg-dark rounded" id="bootstrap">
+    <article class="container text-bg-dark rounded" id="sass">
         <h2 class="text-warning">SASS</h2>
         <p class="">
-            <a href="https://sass-lang.com/install" class="text-warning">Link to SASS main page.</a>
+            Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins,
+            functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets
+            well-organized and makes it easy to share design within and across projects.
+
         </p>
+        <a href="https://sass-lang.com/install" class="text-warning">Link to SASS main page.</a>
+        <br><br>
+        <!--ACORDION-->
+        <div class="accordion accordion-flush rounded" id="accordionFlushExample">
+            <div class="accordion-item bg-secondary">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <a>Task</a>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse text-light"
+                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><a href="./task/sass/buttons/index.html" target="_blank"
+                                    class="text-warning">Buttons</a></li>
+                            <li><a href="./task/sass/calculator/index.html" target="_blank"
+                                    class="text-warning">Calculator</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="align-center">
+            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/imagenes/sass.svg">
+        </div>
+        <br>
+    </article>
+    <br>
+
+    <!--ANGULAR-->
+    <article class="container text-bg-dark rounded" id="angular">
+        <h2 class="text-warning">Angular</h2>
+        <p class="">
+            Angular is an application-design framework and development platform for creating efficient and sophisticated
+            single-page apps.
+            <br>
+            To create a new project we need to use:
+            <br>
+        <pre><code class="languaje-ng">
+                ng new "nameProject"
+            </code></pre>
+        <br>
+        To generate components we need to use:
+        <br>
+        <pre><code class="languaje-ng">
+                ng generate component "nameComponent/subComponent"
+            </code></pre>
+        <br>
+        To start the server we need to use:
+        <br>
+        <pre><code class="languaje-ng">
+                ng serve -o
+            </code></pre>
+        </p>
+        <a href="https://angular.io" class="text-warning">Link to Angular main page.</a>
+        <br><br>
+        <div class="align-center">
+            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/imagenes/angular.png">
+        </div>
+        <br>
+    </article>
+    <br>
+
+    <!--MATERIAL FOR ANGULAR-->
+    <article class="container text-bg-dark rounded" id="matangular">
+        <h2 class="text-warning">MATERIAL FOR ANGULAR</h2>
+        <p class="">
+            Internationalized and accessible components for everyone. Well tested to ensure performance and reliability.
+            <br>
+            To generate install angular material we need to use:
+            <br>
+        <pre><code class="languaje-ng">
+                ng add @angular/material
+            </code></pre>
+        <br>
+        To generate material module:
+        <br>
+        <pre><code class="languaje-ng">
+                ng generate module material
+            </code></pre>
+        <br>
+        </p>
+        <a href="https://material.angular.io" class="text-warning">Material for angular webpage.</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=lQOgGVZtDHw" class="text-warning">How to change theme color.</a>
         <br>
         <div class="align-center">
-            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/">
+            <img class="responsive-img rounded center-align d-block w-100" src="./multimedia/imagenes/amaterial.png">
         </div>
         <br>
     </article>

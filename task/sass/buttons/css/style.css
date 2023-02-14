@@ -1,0 +1,25 @@
+.btn {
+  border: 1px solid black;
+  background-color: rebeccapurple;
+  color: black;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-flat-circle, .btn-flat {
+  background-color: transparent;
+}
+
+.btn-flat-circle, .btn-circle {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    button{
+        border-radius: 50%;
+        background-color: $bg-numeros;
+
+        &:hover{
+            opacity: .8;
+        }
+
+        &:active{
+            transform: scale(1.1);
+        }
+    }
+    
+    .operacion{
+        background-color: $bg-operacion;
+    }
+    
+    .opciones{
+        background-color: $bg_opciones;
+        border-radius: 50%;
+    }
+
+    .boton0{
+        grid-column-end: span 2;
+    }
+}

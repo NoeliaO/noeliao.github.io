@@ -1,0 +1,24 @@
+//Comando de ejecucion: sass --watch ./sass/style.scss:./css/style.css
+
+@import "variables";
+@import "container";
+@import "botones";
+
+body{
+    background-color: $bg-color;
+    color: $text-primary-color;
+}
+
+
+.display{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    background-color: $text-primary-color;
+
+    input{
+        color: $txt-cal;
+        background-color: $text-primary-color;
+    }
+}
+

@@ -1,0 +1,22 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(251, 6, 6) 35%, rgb(234, 255, 0) 100%);
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+video {
+  width: 75%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+$colorPrimario: red;
+$colorSecundario: black;
+
+%btn{
+    border: 1px solid $colorSecundario;
+    background-color: rebeccapurple;
+    color: $colorSecundario;
+    &:hover{
+        opacity: .8;
+    }
+
+    &:active{
+        transform: scale(1.1);
+    }
+}
+
+%danger{
+    background-color: $colorPrimario;
+}
+
+%flat{
+    background-color: transparent;
+}
+
+%circle{
+    border-radius: 50%;
+}
+
+.btn{
+    @extend %btn;
+
+    &-danger{
+        @extend %danger;
+    }
+
+    &-flat{
+        @extend %flat;
+    }
+    
+    &-circle{
+        @extend %circle;
+    }
+
+    &-flat-circle{
+        @extend %flat;
+        @extend %circle;
+    }
+
+}
